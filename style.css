@@ -55,20 +55,19 @@ body {
 
 .container:after {
   content: "...";
-  width: 3em;
-  height: 3em;
   color: #1c1c1c;
   font-size: 10em;
   left: 0.2em;
-  bottom: -1.7em;
+  bottom: 0em;
   position: absolute;
 }
 
 #hr {
-  height: 100vh;
+  height: 700px;
   width: 3px;
   background: #1c1c1c;
   border: none;
+  outline: none;
 }
 
 /* ========================================================== */
